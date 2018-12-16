@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="buttons-view"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9 container-fluid">
+                <div class="gifs-view"></div>
+            </div>
+            <div class="col-md-3">
+                <form id="gif-form">
+                    <label for="topic-input">Add a food or drink</label><br>
+                    <input type="text" id="topic-input"><br>
+                    <input id="add-topic" class="btn btn-default" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="gifs-appear-here"></div>
+
+
+
+
+    <!-- link to javascript-->
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+
+</body>
+
+</html>
